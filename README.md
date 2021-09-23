@@ -4,7 +4,7 @@
 </p>
 <h1 align="center">PokemonRPG</h1>
 <p align="center">
-  ![Tortu](imgs/vamoAPrograma.png)
+  <img width="445" height="487" src="imgs/vamoAPrograma.png" alt="Logo Secu">
 </p>
 Material de consumo para las consultas de Base de Datos.
 
