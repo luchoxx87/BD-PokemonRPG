@@ -3,7 +3,11 @@
   <a href="https://et12.edu.ar"><img src="https://et12.edu.ar/imgs/et12.png" alt="Logo Secu"></a>
 </p>
 <h1 align="center">PokemonRPG</h1>
+<p align="center">
+  ![Tortu](imgs/vamoAPrograma.png)
+</p>
 Material de consumo para las consultas de Base de Datos.
+
 ## DER
 <img src="doc/DER.png">
 
