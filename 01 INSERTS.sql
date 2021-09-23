@@ -22,6 +22,7 @@ START TRANSACTION;
                     (18,'Volador');
 
     INSERT INTO Especie (idEspecie, idTipo, idTipo2, nombre, peso, altura, probabilidadH)
-                VALUES  (1, 12, 17, 'Bulbasaur', 6.9, 0.7, 12.5);
+                VALUES  (1, 12, 17, 'Bulbasaur', 6.9, 0.7, 12.5),
+                        (11, 3, null, 'Metapod', 9.9, 0.7, 50);
 
 COMMIT;
