@@ -25,7 +25,7 @@ CREATE TABLE Especie(
 	nombre VARCHAR(50) NOT NULL,
 	altura FLOAT NOT NULL,
 	peso FLOAT NOT NULL,
-	probabilidadH TINYINT UNSIGNED,
+	probabilidadH FLOAT UNSIGNED,
 	CONSTRAINT PK_Especie PRIMARY KEY (idEspecie ASC),
 	CONSTRAINT UQ_Especie_nombre UNIQUE (nombre ASC),
 	CONSTRAINT FK_Especie_Tip02 FOREIGN KEY (idTipo2) REFERENCES Tipo (idTipo) ON DELETE Restrict ON UPDATE Restrict,
