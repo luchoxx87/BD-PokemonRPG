@@ -127,7 +127,7 @@ START TRANSACTION;
                         (123, 3, 18, 'Scyther', 56, 1.5, 50),
                         (124, 8, 13, 'Jynx', 40.6, 1.4, 100),
                         (125, 5, NULL, 'Electabuzz', 30, 1.1, 25),
-                        (126, 7, NULL, 'Magmar', 44.5, 1.3 25),
+                        (126, 7, NULL, 'Magmar', 44.5, 1.3, 25),
                         (127, 3, NULL, 'Pinsir', 55, 1.5, 50),
                         (128, 11, NULL, 'Tauros', 88.4, 1.4, 0),
                         (129, 2, NULL, 'Magikarp', 10, 0.9, 50),
@@ -152,6 +152,24 @@ START TRANSACTION;
                         (148, 4, NULL, 'Dragonair', 16.5, 4, 50),
                         (149, 4, NULL, 'Dragonite', 210, 2.2, 50),
                         (150, 13, NULL, 'Mewtwo', 122, 2, NULL),
-                        (151, 13, NULL, 'Mew', 4, 0.4, NULL),
+                        (151, 13, NULL, 'Mew', 4, 0.4, NULL);
+
+    INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
+            VALUES          (1, 'LucasMedina04', 10000),
+                            (2, 'Liono02', 10000);
+
+    INSERT INTO Pokemon (idEntrenador, idEntrenadorOriginal, idEspecie, apodo, nivel, atrapado, sexo)
+                VALUES  (1, 1, 3,   NULL, 71,   '2021-09-23',   'H'),
+                        (1, 1, 145, NULL, 81,   '2021-09-23',   NULL),
+                        (1, 1, 47,  NULL, 100,  '2021-09-23',   'H'),
+                        (1, 1, 48,  NULL, 63,   '2021-09-23',   'C'),
+                        (1, 1, 56,  NULL, 62,   '2021-09-23',   'C'),
+                        (1, 1, 73,  NULL, 44,   '2021-09-23',   'H'),
+                        (2, 2, 6,   NULL, 50,   '2021-09-24',   'H'),
+                        (2, 2, 150, NULL, 88,   '2021-09-24',   NULL),
+                        (2, 2, 54,  NULL, 91,   '2021-09-24',   'C'),
+                        (2, 2, 67,  NULL, 59,   '2021-09-24',   'H'),
+                        (2, 2, 62,  NULL, 96,   '2021-09-24',   'H'),
+                        (2, 2, 59,  NULL, 91,   '2021-09-24',   'C');
 
 COMMIT;
