@@ -1,4 +1,4 @@
--- PokemonRPG v1.1 para MySQL 5.7x;
+--	Script Desarrollado por alumnos de Computación de ET12 "Libertador Gral. José de San Martín" https://et12.edu.ar
 DROP DATABASE IF EXISTS PokemonRPG;
 CREATE DATABASE PokemonRPG;
 USE PokemonRPG;
