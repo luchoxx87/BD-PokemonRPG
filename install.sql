@@ -1,0 +1,3 @@
+SOURCE 00 DDL.sql;
+SET NAMES 'latin1';
+SOURCE 01 INSERTS.sql;

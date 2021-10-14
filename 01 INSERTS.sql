@@ -12,6 +12,7 @@ SET FOREIGN_KEY_CHECKS=0;
 SET FOREIGN_KEY_CHECKS=1;
 START TRANSACTION;
     USE PokemonRPG;
+    SELECT 'INSERTS en Tipo' AS 'INSERT';
     INSERT INTO Tipo(idTipo, tipo)
         VALUES      (1, 'Acero'),
                     (2, 'Agua'),
@@ -32,6 +33,7 @@ START TRANSACTION;
                     (17, 'Veneno'),
                     (18, 'Volador');
 
+    SELECT 'INSERTS en Especie' AS 'INSERT';
     INSERT INTO Especie (idEspecie, idTipo, idTipo2, nombre, peso, altura, probabilidadH)
                 VALUES  (1	, 12, 17	, 'Bulbasaur'	, 6.9	, 0.7	, 12.5),
                         (2  , 12, 17	, 'Ivysaur'		, 13	, 1		, 12.5),
@@ -185,11 +187,13 @@ START TRANSACTION;
                         (150, 13, NULL	, 'Mewtwo'		, 122	, 2		, NULL),
                         (151, 13, NULL	, 'Mew'			, 4		, 0.4	, NULL);
 
+    SELECT 'INSERTS en Entrenador' AS 'INSERT';
     INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
             VALUES          (1, 'LucasMedina04', 10000),
                             (2, 'Liono02', 10000),
 							(3, 'luchoxx87',10000);
 
+    SELECT 'INSERTS en Pokemon' AS 'INSERT';
     INSERT INTO Pokemon (idEntrenador, idEntrenadorOriginal, idEspecie, apodo, nivel, atrapado, sexo)
                 VALUES  (1, 1, 3,   NULL		, 71,   '2021-09-23',   'M'),
                         (1, 1, 145, 'Chispita'	, 81,   '2021-09-23',   NULL),
@@ -210,7 +214,8 @@ START TRANSACTION;
                         (3, 1, 130, NULL		, 72,   '2021-09-21',   'H'),
                         (3, 1, 151, 'Chikito'   , 80,   '2021-09-21',   NULL);
 
-	INSERT INTO Pokedex	(idEntrenador, idEspecie, encuentros, atrapados)
+	SELECT 'INSERTS en Pokedex' AS 'INSERT';
+    INSERT INTO Pokedex	(idEntrenador, idEspecie, encuentros, atrapados)
 				VALUES	(1			, 1			, 1			, 1),
 						(1			, 2			, 1			, 0),
 						(1			, 3			, 1			, 0),
@@ -245,9 +250,11 @@ START TRANSACTION;
                         (3			, 130		, 1			, 0),
                         (3			, 151		, 1			, 1);
 
+    SELECT 'INSERTS en Objeto' AS 'INSERT';
     INSERT INTO Objeto  (idObjeto, nombre, precioCompra, precioVenta)
                 VALUES  (1  , 'Poké Ball'   , 200   , 100);
 
+    SELECT 'INSERTS Mochila' AS 'INSERT';
     INSERT INTO Mochila (idEntrenador, idObjeto, cantidad)
                 VALUES  (1  , 1     , 5),
                         (2  , 1     , 3),
