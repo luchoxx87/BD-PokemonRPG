@@ -28,7 +28,7 @@ git clone https://github.com/ET12DE1Computacion/BD-PokemonRPG
 
 1. Abrir la terminal en el directorio donde estan los scripts (recomendamos tener MySQL agregado en tus **Variables de entorno**).
 1. Ejecutar el comando: `mysql -u usuario -p` donde *usuario* es el nombre de usuario con el que entras al sistema. Si estas en la secu podes usar: `mysql -u root -p`. Se te va a preguntar por la contraseña de tu usuario, recorda que si estas en la secu la misma es *root*
-1. Ya dentro del cliente de `MySQL` tipeamos `source`
+1. Ya dentro del cliente de `MySQL` tipeamos `source install.sql` y nos deberia quedar algo como: `mysql> source install.sql`
 
 ## Colaboradores
 
