@@ -1,6 +1,6 @@
 --	Script Desarrollado por alumnos de Computación de ET12 "Libertador Gral. José de San Martín" https://et12.edu.ar
 DROP DATABASE IF EXISTS PokemonRPG;
-CREATE DATABASE PokemonRPG;
+CREATE DATABASE PokemonRPG CHARACTER SET UTF8;
 USE PokemonRPG;
 
 CREATE TABLE Entrenador(

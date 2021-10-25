@@ -1,5 +1,6 @@
 /* 	Datos de https://www.wikidex.net/wiki/Lista_de_Pok%C3%A9mon_de_la_primera_generaci%C3%B3n
 	Script Desarrollado por alumnos de Computación de ET12 "Libertador Gral. José de San Martín" https://et12.edu.ar */
+SET NAMES utf8;
 USE PokemonRPG;
 SET FOREIGN_KEY_CHECKS=0;
 	TRUNCATE TABLE Entrenador;
@@ -11,7 +12,7 @@ SET FOREIGN_KEY_CHECKS=0;
 	TRUNCATE TABLE Pokemon;
 SET FOREIGN_KEY_CHECKS=1;
 START TRANSACTION;
-    USE PokemonRPG;
+    USE PokemonRPG;    
     SELECT 'INSERTS en Tipo' AS 'INSERT';
     INSERT INTO Tipo(idTipo, tipo)
         VALUES      (1, 'Acero'),
