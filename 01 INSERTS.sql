@@ -184,9 +184,19 @@ START TRANSACTION;
                         (146, 7	, 18	, 'Moltres'		, 60	, 2		, NULL),
                         (147, 4	, NULL	, 'Dratini'		, 3.3	, 1.8	, 50),
                         (148, 4	, NULL	, 'Dragonair'	, 16.5	, 4		, 50),
-                        (149, 4	, NULL	, 'Dragonite'	, 210	, 2.2	, 50),
+                        (149, 4 , NULL	, 'Dragonite'	, 210	, 2.2	, 50),
                         (150, 13, NULL	, 'Mewtwo'		, 122	, 2		, NULL),
                         (151, 13, NULL	, 'Mew'			, 4		, 0.4	, NULL),
+                        (162, 11, NULL	, 'Furret'  	, 32.5	, 1.8	, 50),
+                        (163, 11, 18	, 'Hoothoot'    , 21.2	, 0.7	, 50),
+                        (164, 11, 18	, 'Noctowl'		, 40.8	, 1.6	, 50),
+                        (165, 3	, 18	, 'Ledyba'  	, 10.8	, 1.0	, 50),
+                        (166, 3	, 18	, 'Ledian'		, 35.6	, 1.4	, 50),
+                        (167, 3	, 17	, 'Spinarak'	, 8.5	, 0.5	, 50),
+                        (168, 3	, 17	, 'Ariados'		, 33.5	, 1.1	, 50),
+                        (169, 17, 18	, 'Crobat'	    , 75	, 1.8	, 50),
+                        (170, 2	, 5 	, 'Chinchou'	, 21.0	, 0.5	, 50),
+                        (171, 2	, 5 	, 'Lanturn'		, 22.5	, 1.2	, 50),
                         (172, 5 , NULL  , 'Pichu'		, 2.0	, 0.3	, 50),
                         (173, 8 , NULL	, 'Cleffa'		, 3.0	, 0.3	, 75),
                         (174, 11, 8		, 'Igglybuff'	, 1.0	, 0.3	, 75),
@@ -198,6 +208,7 @@ START TRANSACTION;
                         (180, 5 , NULL 	, 'Flaaffy'		, 13.3	, 0.8	, 50),
                         (181, 5 , NULL	, 'Ampharos'	, 61.5	, 1.4	, 50),
                         (182, 12, NULL 	, 'Bellossom'	, 5.8	, 0.4	, 50);
+                        
 
     SELECT 'INSERTS en Entrenador' AS 'INSERT';
     INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
