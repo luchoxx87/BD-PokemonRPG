@@ -186,7 +186,17 @@ START TRANSACTION;
                         (148, 4	, NULL	, 'Dragonair'	, 16.5	, 4		, 50),
                         (149, 4	, NULL	, 'Dragonite'	, 210	, 2.2	, 50),
                         (150, 13, NULL	, 'Mewtwo'		, 122	, 2		, NULL),
-                        (151, 13, NULL	, 'Mew'			, 4		, 0.4	, NULL);
+                        (151, 13, NULL	, 'Mew'			, 4		, 0.4	, NULL),
+                        (183, 2,  8     , 'Marill'      , 8.5   , 0.4   , 50),
+                        (184, 2,  8     , 'Azumarill'   , 28.5  , 0.8   , 50),
+                        (185, 14, NULL  , 'Sudowoodo'   , 38    , 1.2   , 50),
+                        (186, 2,  NULL  , 'Politoed'    , 33.9  , 1.1   , 50),
+                        (187, 12, 18    , 'Hopip'       , 0.5   , 0.4   , 50),
+                        (188, 12, 18    , 'Skiploom'    , 1     , 0.6   , 50),
+                        (189, 12, 18    , 'Jumpluff'    , 3     , 0.8   , 50),
+                        (190, 11, NULL  , 'Aipom'       , 11.5  , 0.8   , 50),
+                        (191, 12, NULL  , 'Sunkern'     , 1.8   , 0.3   , 50),
+                        (192, 12, NULL  , 'Sunflora'    , 8.5   , 0.8   , 50);
 
     SELECT 'INSERTS en Entrenador' AS 'INSERT';
     INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
