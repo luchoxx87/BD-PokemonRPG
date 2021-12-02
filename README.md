@@ -38,3 +38,4 @@ git clone https://github.com/ET12DE1Computacion/BD-PokemonRPG
 | 2021  | 5° 8°   | Lucas Medina ([@LucasMedina04](https://github.com/LucasMedina04))                    | [b849708](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/b8497080352a823a57a03beddeafa8c0c640a879)    |
 | 2021  | 5° 8°   | Ezequiel Kippes ([@Liono02](https://github.com/Liono02))                             | [006d076](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/006d076b88312ade579afeec89d4bc51ade5b803)    |
 | 2021  | 5° 8°   | Lucas Medina ([@LucasMedina04](https://github.com/LucasMedina04))                    | [a4cefc7](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/a4cefc7adaf001151e2a83d7e8ea948464321706)    |
+| 2021  | 4° 7°   | Abril Chauque ([@abrilchauq](https://github.com/abrilchauq))                    | [42de5a7](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/a4cefc7adaf001151e2a83d7e8ea948464321706)    |

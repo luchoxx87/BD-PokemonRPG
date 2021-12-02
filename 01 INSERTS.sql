@@ -187,6 +187,17 @@ START TRANSACTION;
                         (149, 4	, NULL	, 'Dragonite'	, 210	, 2.2	, 50),
                         (150, 13, NULL	, 'Mewtwo'		, 122	, 2		, NULL),
                         (151, 13, NULL	, 'Mew'			, 4		, 0.4	, NULL),
+                        (172, 5 , NULL  , 'Pichu'		, 2.0	, 0.3	, 50),
+                        (173, 8 , NULL	, 'Cleffa'		, 3.0	, 0.3	, 75),
+                        (174, 11, 8		, 'Igglybuff'	, 1.0	, 0.3	, 75),
+                        (175, 8	, NULL	, 'Togepi'		, 1.5	, 0.3	, 12.5),
+                        (176, 8	, 18	, 'Togetic'		, 3.5	, 0.6	, 12.5),
+                        (177, 13, 18	, 'Natu'		, 2.0	, 0.2	, 50),
+                        (178, 13, 18	, 'Xatu'		, 15	, 1.5	, 50),
+                        (179, 5 , NULL	, 'Mareep'		, 7.8	, 0.6	, 50),
+                        (180, 5 , NULL 	, 'Flaaffy'		, 13.3	, 0.8	, 50),
+                        (181, 5 , NULL	, 'Ampharos'	, 61.5	, 1.4	, 50),
+                        (182, 12, NULL 	, 'Bellossom'	, 5.8	, 0.4	, 50),
                         (193,  3,  18   , 'Yanma'       , 38    , 1.2   , 50),
                         (194,  2,  14   , 'Wooper'      , 8.5   , 0.4   , 50),
                         (195,  2,  16   , 'Quagsire'    , 75    , 1.4	, 50),
@@ -197,13 +208,13 @@ START TRANSACTION;
                         (200, 6 , NULL  , 'Misdreavus'  , 1		, 0.7 	, 50),
                         (201, 13, NULL 	, 'Unown'		, 5		, 0.5	, NULL),
                         (202, 13, NULL 	, 'Wobbuffet' 	, 28.5	, 1.3	, 50);
-                        
 
     SELECT 'INSERTS en Entrenador' AS 'INSERT';
     INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
             VALUES          (1, 'LucasMedina04', 10000),
                             (2, 'Liono02', 10000),
-							(3, 'luchoxx87',10000);
+							(3, 'luchoxx87',10000),
+                            (4, 'abrilchauq', 50000);
 
     SELECT 'INSERTS en Pokemon' AS 'INSERT';
     INSERT INTO Pokemon (idEntrenador, idEntrenadorOriginal, idEspecie, apodo, nivel, atrapado, sexo)
@@ -224,7 +235,13 @@ START TRANSACTION;
                         (3, 1, 17,  NULL		, 70,   '2021-09-21',   'M'),
                         (3, 1, 82,  NULL		, 70,   '2021-09-21',   NULL),
                         (3, 1, 130, NULL		, 72,   '2021-09-21',   'H'),
-                        (3, 1, 151, 'Chikito'   , 80,   '2021-09-21',   NULL);
+                        (3, 1, 151, 'Chikito'   , 80,   '2021-09-21',   NULL),
+                        (4, 4, 19,  'Jazmin'    , 13,   '2021-12-02',   'H'),
+                        (4, 122, 89,  NULL      , 89,   '2021-12-02',   'H'),
+                        (4, 4, 57,  NULL        , 60,   '2021-12-02',   'H'),
+                        (4, 4, 72,  NULL        , 97,   '2021-12-02',   'H'),
+                        (4, 4, 90,  NULL        , 47,   '2021-12-02',   'H'),
+                        (4, 4, 139,  NULL       , 26,   '2021-12-02',   'H');
 
 	SELECT 'INSERTS en Pokedex' AS 'INSERT';
     INSERT INTO Pokedex	(idEntrenador, idEspecie, encuentros, atrapados)
