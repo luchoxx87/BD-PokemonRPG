@@ -184,9 +184,19 @@ START TRANSACTION;
                         (146, 7	, 18	, 'Moltres'		, 60	, 2		, NULL),
                         (147, 4	, NULL	, 'Dratini'		, 3.3	, 1.8	, 50),
                         (148, 4	, NULL	, 'Dragonair'	, 16.5	, 4		, 50),
-                        (149, 4	, NULL	, 'Dragonite'	, 210	, 2.2	, 50),
+                        (149, 4 , 18	, 'Dragonite'	, 210	, 2.2	, 50),
                         (150, 13, NULL	, 'Mewtwo'		, 122	, 2		, NULL),
                         (151, 13, NULL	, 'Mew'			, 4		, 0.4	, NULL),
+                        (152, 12, NULL  , 'Chikorita'   , 6.4	, 0.9	, 12.5),
+                        (153, 12, NULL  , 'Bayleef'     , 15.8	, 1.2	, 12.5),
+                        (154, 12, NULL  , 'Meganium'    , 100.5 , 1.8	, 12.5),
+                        (155, 7 , NULL  , 'Cyndaquil'   , 7.9	, 0.5	, 12.5),
+                        (156, 7 , NULL  , 'Quilava'     , 19	, 0.9	, 12.5),
+                        (157, 7 , NULL  , 'Typlhosion'  , 79.5	, 1.7	, 12.5),
+                        (158, 2 , NULL  , 'Totodile'    , 9.5	, 0.6	, 12.5),
+                        (159, 2 , NULL  , 'Croconaw'    , 25	, 1.1	, 12.5),
+                        (160, 2 , NULL  , 'Feraligatr'  , 88.8	, 2.3	, 12.5),
+                        (161, 11, NULL  , 'Sentret'     , 6	    , 0.8	, 50),
                         (172, 5 , NULL  , 'Pichu'		, 2.0	, 0.3	, 50),
                         (173, 8 , NULL	, 'Cleffa'		, 3.0	, 0.3	, 75),
                         (174, 11, 8		, 'Igglybuff'	, 1.0	, 0.3	, 75),
@@ -227,11 +237,11 @@ START TRANSACTION;
                         (3, 1, 130, NULL		, 72,   '2021-09-21',   'H'),
                         (3, 1, 151, 'Chikito'   , 80,   '2021-09-21',   NULL),
                         (4, 4, 19,  'Jazmin'    , 13,   '2021-12-02',   'H'),
-                        (4, 122, 89,  NULL      , 89,   '2021-12-02',   'H'),
+                        (4, 4, 122, NULL        , 89,   '2021-12-02',   'H'),
                         (4, 4, 57,  NULL        , 60,   '2021-12-02',   'H'),
                         (4, 4, 72,  NULL        , 97,   '2021-12-02',   'H'),
                         (4, 4, 90,  NULL        , 47,   '2021-12-02',   'H'),
-                        (4, 4, 139,  NULL       , 26,   '2021-12-02',   'H');
+                        (4, 4, 139, NULL        , 26,   '2021-12-02',   'H');
 
 	SELECT 'INSERTS en Pokedex' AS 'INSERT';
     INSERT INTO Pokedex	(idEntrenador, idEspecie, encuentros, atrapados)
