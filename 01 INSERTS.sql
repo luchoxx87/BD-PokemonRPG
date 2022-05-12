@@ -237,7 +237,17 @@ START TRANSACTION;
                         (199, 2 , 13	, 'Slowking'	, 79.5  , 2		, 50),
                         (200, 6 , NULL  , 'Misdreavus'  , 1		, 0.7 	, 50),
                         (201, 13, NULL 	, 'Unown'		, 5		, 0.5	, NULL),
-                        (202, 13, NULL 	, 'Wobbuffet' 	, 28.5	, 1.3	, 50);
+                        (202, 13, NULL 	, 'Wobbuffet' 	, 28.5	, 1.3	, 50),
+                        (203, 12, 13    , 'Girafarig'   , 41.5  , 1.5   , 50),
+                        (204, 3 , NULL  , 'Pineco'      , 7.2   , 0.6   , 50),
+                        (205, 3 , 1     , 'Forretress'  , 126.8 , 1.2   , 50),
+                        (206, 13, NULL  , 'Dunsparce'   , 14.0  , 1.5   , 50),
+                        (207, 16, 18    , 'Gligar'      , 64.8  , 1.1   , 50),
+                        (208, 1 , 16    , 'Steelix'     , 400.0 , 9.2   , 50),
+                        (209, 8 , NULL  , 'Snubbull'    , 7.9   , 0.6   , 75),
+                        (210, 8 , NULL  , 'Granbull'    , 48.7  , 1.4   , 75),
+                        (211, 2 , 17    , 'Qwilfish'    , 3.9   , 0.5   , 50),
+                        (212, 3 , 1     , 'Scizor'      , 118.0 , 1.8   , 50);
 
     SELECT 'INSERTS en Entrenador' AS 'INSERT';
     INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
