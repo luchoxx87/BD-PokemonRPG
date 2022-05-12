@@ -252,9 +252,10 @@ START TRANSACTION;
     SELECT 'INSERTS en Entrenador' AS 'INSERT';
     INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
             VALUES          (1, 'LucasMedina04', 10000),
-                            (2, 'Liono02', 10000),
-							(3, 'luchoxx87',10000),
-                            (4, 'abrilchauq', 50000);
+                            (2, 'Liono02'   , 10000),
+							(3, 'luchoxx87' ,10000),
+                            (4, 'abrilchauq', 50000),
+                            (5, 'recalDER'  , 10000);
 
     SELECT 'INSERTS en Pokemon' AS 'INSERT';
     INSERT INTO Pokemon (idEntrenador, idEntrenadorOriginal, idEspecie, apodo, nivel, atrapado, sexo)
@@ -281,7 +282,14 @@ START TRANSACTION;
                         (4, 4, 57,  NULL        , 60,   '2021-12-02',   'H'),
                         (4, 4, 72,  NULL        , 97,   '2021-12-02',   'H'),
                         (4, 4, 90,  NULL        , 47,   '2021-12-02',   'H'),
-                        (4, 4, 139, NULL        , 26,   '2021-12-02',   'H');
+                        (4, 4, 139, NULL        , 26,   '2021-12-02',   'H'),
+                        (5, 5, 3,   'Cebolla'   , 38,   '2022-06-12',   'M'),
+                        (5, 5, 82 , NULL        , 10,   '2022-06-12',   NULL),
+                        (5, 5, 149, NULL        , 94,   '2022-06-12',   'M'),
+                        (5, 5, 187, NULL        , 83,   '2022-06-12',   'H'),
+                        (5, 5, 158, NULL        , 92,   '2022-06-12',   'H'),
+                        (5, 5, 150, NULL        , 12,   '2022-06-12',   NULL),
+
 
 	SELECT 'INSERTS en Pokedex' AS 'INSERT';
     INSERT INTO Pokedex	(idEntrenador, idEspecie, encuentros, atrapados)
@@ -317,7 +325,15 @@ START TRANSACTION;
                         (3			, 82		, 3			, 1),
                         (3			, 129		, 10		, 1),
                         (3			, 130		, 1			, 0),
-                        (3			, 151		, 1			, 1);
+                        (3			, 151		, 1			, 1),
+                        (5			, 1			, 1			, 1),
+						(5			, 2			, 1			, 0),
+						(5			, 3			, 1			, 0),
+                        (5          , 82        , 1         , 1),
+                        (5          , 149       , 5         , 1),
+                        (5          , 187       , 2         , 1),
+                        (5          , 158       , 1         , 1),
+                        (5          , 150       , 1         , 1),
 
     SELECT 'INSERTS en Objeto' AS 'INSERT';
     INSERT INTO Objeto  (idObjeto, nombre, precioCompra, precioVenta)
