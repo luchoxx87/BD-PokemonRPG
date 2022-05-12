@@ -43,3 +43,4 @@ git clone https://github.com/ET12DE1Computacion/BD-PokemonRPG
 | 2021  | 4° 7°   | Maximo Yampa ([@MaximoYampa](https://github.com/MaximoYampa))                        | [8d754c9](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/8d754c91f554bb7fadf21b4fcb20986a84f2f4b9)    |
 | 2021  | 4° 7°   | José Cruz ([@josesinio](https://github.com/josesinio))                               | [0a2f716](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/0a2f7164996de01f6809a29ea9e715dab49bf513)    |
 | 2021  | 4° 7°   | Lucia Barcenas ([@Lucia-Barcenas](https://github.com/Lucia-Barcenas))                | [d09c1d6](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/d09c1d6d9bdb25c60167547f5c86bcef723b604d)    |
+| 2022  | 5° 8°   | Facundo Recalde ([@recalDER](https://github.com/recalDER))                           | [546e7c6](https://github.com/ET12DE1Computacion/BD-PokemonRPG/commit/546e7c63ae1051a28ec20bc43e96fb7b72bdec20)    |
