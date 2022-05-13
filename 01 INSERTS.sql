@@ -288,7 +288,7 @@ START TRANSACTION;
                         (5, 5, 149, NULL        , 94,   '2022-06-12',   'M'),
                         (5, 5, 187, NULL        , 83,   '2022-06-12',   'H'),
                         (5, 5, 158, NULL        , 92,   '2022-06-12',   'H'),
-                        (5, 5, 150, NULL        , 12,   '2022-06-12',   NULL),
+                        (5, 5, 150, NULL        , 12,   '2022-06-12',   NULL);
 
 
 	SELECT 'INSERTS en Pokedex' AS 'INSERT';
@@ -333,7 +333,7 @@ START TRANSACTION;
                         (5          , 149       , 5         , 1),
                         (5          , 187       , 2         , 1),
                         (5          , 158       , 1         , 1),
-                        (5          , 150       , 1         , 1),
+                        (5          , 150       , 1         , 1);
 
     SELECT 'INSERTS en Objeto' AS 'INSERT';
     INSERT INTO Objeto  (idObjeto, nombre, precioCompra, precioVenta)
