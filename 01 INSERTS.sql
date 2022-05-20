@@ -247,7 +247,25 @@ START TRANSACTION;
                         (209, 8 , NULL  , 'Snubbull'    , 7.9   , 0.6   , 75),
                         (210, 8 , NULL  , 'Granbull'    , 48.7  , 1.4   , 75),
                         (211, 2 , 17    , 'Qwilfish'    , 3.9   , 0.5   , 50),
-                        (212, 3 , 1     , 'Scizor'      , 118.0 , 1.8   , 50);
+                        (212, 3 , 1     , 'Scizor'      , 118.0 , 1.8   , 50),
+                        (213, 3 , 14    , 'Shuckle'     , 20.5  , 0.6   , 50),
+                        (214, 3 , 10    , 'Heracross'   , 54    , 1.5   , 50),
+                        (215, 15, 9     , 'Sneasel'     , 28    , 0.9   , 50),
+                        (216, 11, NULL  , 'Teddiursa'   , 8.8   , 0.6   , 50),
+                        (217, 11, NULL  , 'Ursaring'    , 125.8 , 1.8   , 50),
+                        (218, 7 , NULL  , 'Slugma'      , 35    , 0.7   , 50),
+                        (219, 7 , 14    , 'Magcargo'    , 55    , 0.8   , 50),
+                        (220, 9 , 16    , 'Swinub'      , 6.5   , 0.4   , 50),
+                        (221, 9 , 16    , 'Pilowine'    , 55.8  , 1.1   , 50),
+                        (222, 2 , 14    , 'Corsola'     , 5     , 0.6   , 75),
+                        (223, 2 , NULL  , 'Remoraid'    , 12    , 0.6   , 50),
+                        (224, 2 , NULL  , 'Octillery'   , 28.5  , 0.9   , 50),
+                        (225, 9 , 18    , 'Delibird'    , 16    , 0.9   , 50),
+                        (226, 2 , 18    , 'Mantine'     , 220   , 2.1   , 50),
+                        (227, 1 , 18    , 'Skarmory'    , 50.5  , 1.7   , 50),
+                        (228, 15, 7     , 'Houndour'    , 10.8  , 0.6   , 50),
+                        (229, 15, 7     , 'Houndoom'    , 35    , 1.4   , 50),
+                        (230, 2 , 4     , 'Kingdra'     , 152   , 1.8   , 50);
 
     SELECT 'INSERTS en Entrenador' AS 'INSERT';
     INSERT INTO Entrenador  (idEntrenador, nombre, dinero)
