@@ -1,5 +1,6 @@
 /* 	Datos de https://www.wikidex.net/wiki/Lista_de_Pok%C3%A9mon_de_la_primera_generaci%C3%B3n
-	Script Desarrollado por alumnos de Computación de ET12 "Libertador Gral. José de San Martín" https://et12.edu.ar */
+	Script Desarrollado por alumnos de Computación de ET12 "Libertador Gral. José de San Martín" https://et12.edu.ar
+    Especies 230 */
 SET NAMES utf8;
 USE PokemonRPG;
 SET FOREIGN_KEY_CHECKS=0;
@@ -273,7 +274,8 @@ START TRANSACTION;
                             (2, 'Liono02'   , 10000),
 							(3, 'luchoxx87' ,10000),
                             (4, 'abrilchauq', 50000),
-                            (5, 'recalDER'  , 10000);
+                            (5, 'recalDER'  , 10000),
+                            (6, 'magalirodriguez09', 15000);
 
     SELECT 'INSERTS en Pokemon' AS 'INSERT';
     INSERT INTO Pokemon (idEntrenador, idEntrenadorOriginal, idEspecie, apodo, nivel, atrapado, sexo)
@@ -306,8 +308,13 @@ START TRANSACTION;
                         (5, 5, 149, NULL        , 94,   '2022-06-12',   'M'),
                         (5, 5, 187, NULL        , 83,   '2022-06-12',   'H'),
                         (5, 5, 158, NULL        , 92,   '2022-06-12',   'H'),
-                        (5, 5, 150, NULL        , 12,   '2022-06-12',   NULL);
-
+                        (5, 5, 150, NULL        , 12,   '2022-06-12',   NULL),
+                        (6, 6, 77,  NULL        , 8 ,   '2022-06-12',   'H'),
+                        (6, 6, 145, NULL        , 9 ,   '2022-06-12',   NULL),
+                        (6, 6, 189, NULL        , 6 ,   '2022-06-12',   'H'),
+                        (6, 6, 219, NULL        , 10,   '2022-06-12',   'M'),
+                        (6, 6, 154, 'Koki'      , 62,   '2022-06-12',   'H'),
+                        (6, 6, 98,  NULL        , 91,   '2022-06-12',   'M');
 
 	SELECT 'INSERTS en Pokedex' AS 'INSERT';
     INSERT INTO Pokedex	(idEntrenador, idEspecie, encuentros, atrapados)
@@ -351,7 +358,15 @@ START TRANSACTION;
                         (5          , 149       , 5         , 1),
                         (5          , 187       , 2         , 1),
                         (5          , 158       , 1         , 1),
-                        (5          , 150       , 1         , 1);
+                        (5          , 150       , 1         , 1),
+                        (6          , 77        , 1         , 1),
+                        (6          , 145       , 1         , 1),
+                        (6          , 189       , 1         , 1),
+                        (6          , 219       , 1         , 1),
+                        (6          , 98        , 1         , 1),
+                        (6          , 152       , 1         , 1),
+                        (6          , 153       , 1         , 0),
+                        (6          , 154       , 1         , 0);
 
     SELECT 'INSERTS en Objeto' AS 'INSERT';
     INSERT INTO Objeto  (idObjeto, nombre, precioCompra, precioVenta)
